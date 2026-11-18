@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta name="robots" content="noindex, nofollow"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Фируза / интерьеры (направление D)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700;800&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{--bg:#d8cdbd;--ink:#251e19;--walnut:#4a3d34;--cocoa:#816c60;--led:#e8a93a;--cream:#f4eee4;--r:36px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.55 Onest,sans-serif;padding:0 0 20px}
+img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
+.note{background:#f3e3b8;color:#5a4410;font-size:12.5px;padding:8px 20px;text-align:center}
+.page{max-width:1440px;margin:0 auto;padding:16px}
+.ic{display:inline-grid;place-items:center;flex:none}
+/* hero */
+.hero{position:relative;border-radius:var(--r);overflow:hidden;min-height:900px;color:#fff;background:#2b221c url(img/bedroom_result.jpg) 50% 36%/cover}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(24,17,12,.35) 0,rgba(24,17,12,0) 28%,rgba(24,17,12,.15) 52%,rgba(24,17,12,.78) 100%)}
+.top{position:absolute;left:0;right:0;top:0;display:flex;justify-content:space-between;align-items:flex-start;padding:22px 26px;z-index:3}
+.logo{background:#fff;color:var(--ink);border-radius:99px;padding:13px 24px;font-weight:700;font-size:16px;letter-spacing:-.01em}
+.logo span{font-weight:400;color:var(--cocoa)}
+.notch{position:absolute;left:50%;top:0;transform:translateX(-50%);background:var(--bg);border-radius:0 0 28px 28px;padding:20px 34px 18px;display:flex;gap:30px;font-size:15px;font-weight:500;color:var(--ink)}
+.pill{display:inline-flex;align-items:center;gap:10px;border-radius:99px;padding:13px 14px 13px 24px;font-weight:600;font-size:15px;background:#fff;color:var(--ink)}
+.pill i{width:34px;height:34px;border-radius:50%;background:var(--led);display:grid;place-items:center;font-style:normal}
+.soc{position:absolute;left:26px;top:50%;transform:translateY(-40%);display:flex;flex-direction:column;gap:12px;z-index:3}
+.soc a{width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.35);display:grid;place-items:center;color:#fff}
+.hl{position:absolute;left:112px;right:40px;top:170px;z-index:2}
+.hl small{display:inline-block;background:rgba(255,255,255,.18);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.3);border-radius:99px;padding:8px 18px;font-size:14px;font-weight:500;margin-bottom:22px}
+h1{font:800 clamp(52px,8.2vw,124px)/.92 Onest;text-transform:uppercase;letter-spacing:-.045em;max-width:1000px;text-shadow:0 2px 30px rgba(20,12,6,.25)}
+h1 b{color:var(--led)}
+.stat{position:absolute;left:26px;bottom:26px;background:#fff;color:var(--ink);border-radius:28px;padding:22px 26px;width:330px;z-index:3}
+.stat .n{font:800 52px/1 Onest;letter-spacing:-.04em}
+.stat p{font-size:14.5px;color:#5b4f47;margin:6px 0 16px;line-height:1.35}
+.av{display:flex;align-items:center}
+.av img{width:42px;height:42px;border-radius:50%;object-fit:cover;border:3px solid #fff;margin-left:-12px}
+.av img:first-child{margin-left:0}
+.av span{font-size:13px;color:#5b4f47;margin-left:12px;line-height:1.25}
+.obj{position:absolute;right:26px;bottom:26px;width:380px;border-radius:28px;padding:22px;z-index:3;background:rgba(255,255,255,.16);backdrop-filter:blur(22px) saturate(1.2);-webkit-backdrop-filter:blur(22px) saturate(1.2);border:1px solid rgba(255,255,255,.38);color:#fff}
+.obj .t{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
+.obj h3{font:700 24px/1.1 Onest;letter-spacing:-.02em}
+.obj .loc{font-size:14px;opacity:.9;margin-top:4px}
+.obj .go{width:46px;height:46px;border-radius:50%;background:#fff;color:var(--ink);display:grid;place-items:center;flex:none}
+.obj ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;margin-top:20px;font-size:14px}
+.obj li{display:flex;gap:9px;align-items:center}
+.obj li:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--led);flex:none}
+/* strip */
+.strip{margin-top:12px;display:grid;grid-template-columns:repeat(4,1fr) 1.15fr;background:var(--walnut);color:#f1e9dd;border-radius:var(--r);overflow:hidden}
+.strip div{padding:26px 30px;border-right:1px solid rgba(255,255,255,.14)}
+.strip small{display:block;font-size:13px;opacity:.65;margin-bottom:4px}
+.strip b{font:600 18px/1.25 Onest}
+.strip a.cta{background:#fff;color:var(--ink);display:flex;align-items:center;justify-content:space-between;padding:26px 30px;font-weight:700;font-size:17px}
+.strip a.cta i{width:40px;height:40px;border-radius:50%;background:var(--led);display:grid;place-items:center;font-style:normal}
+/* sections */
+.sec{margin-top:12px;border-radius:var(--r);padding:90px 56px}
+.sec h2{font:800 clamp(38px,5vw,72px)/.95 Onest;text-transform:uppercase;letter-spacing:-.04em;max-width:900px}
+.sec h2 em{font-style:normal;color:var(--cocoa)}
+.kick{display:inline-block;border:1px solid currentColor;border-radius:99px;padding:6px 16px;font-size:13px;font-weight:500;margin-bottom:22px;opacity:.75}
+.how{background:var(--walnut);color:#f3ebdf}
+.how h2 em{color:var(--led)}
+.how .row{display:flex;justify-content:space-between;align-items:end;gap:60px;margin-bottom:56px}
+.how .row p{max-width:360px;color:#d4c7b5;font-size:16px}
+.tiles{display:grid;grid-template-columns:1.25fr 1fr 1.25fr;gap:14px}
+.tile{position:relative;border-radius:28px;overflow:hidden;min-height:420px;background-size:cover;background-position:center}
+.tile:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,13,8,0) 45%,rgba(20,13,8,.78) 100%)}
+.tile .n{position:absolute;left:18px;top:18px;z-index:2;background:rgba(255,255,255,.2);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.4);border-radius:99px;padding:7px 16px;font-size:14px;font-weight:600;color:#fff}
+.tile .c{position:absolute;left:24px;right:24px;bottom:22px;z-index:2;color:#fff}
+.tile h3{font:700 28px/1 Onest;text-transform:uppercase;letter-spacing:-.03em;margin-bottom:8px}
+.tile p{font-size:15px;opacity:.92}
+.hint{margin-top:22px;font-size:13px;color:#b9a994}
+/* services */
+.svc{background:var(--cream)}
+.svc .g{display:grid;grid-template-columns:7fr 5fr;gap:14px;margin-top:50px}
+.card{border-radius:32px;padding:40px}
+.card.full{background:var(--walnut);color:#f3ebdf}
+.card.exp{background:var(--led);color:#2b1d0b}
+.card h3{font:800 38px/1 Onest;text-transform:uppercase;letter-spacing:-.04em;margin-bottom:14px}
+.card p{max-width:430px;margin-bottom:24px}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tags span{border-radius:99px;padding:10px 18px;font-size:15px;font-weight:500;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28)}
+.exp .tags span{background:rgba(255,255,255,.35);border-color:rgba(43,29,11,.25)}
+.card .ex{margin-top:26px;font-size:14.5px;opacity:.85}
+/* bento */
+.pj{background:var(--bg);padding-left:0;padding-right:0;padding-bottom:30px}
+.pj .head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:34px}
+.pills{display:flex;gap:10px;flex-wrap:wrap}
+.pills span{border-radius:99px;padding:10px 20px;font-size:15px;font-weight:500;background:rgba(255,255,255,.45)}
+.pills span.on{background:var(--ink);color:#fff}
+.bento{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:150px;gap:14px}
+.bt{position:relative;border-radius:30px;overflow:hidden;background-size:cover;background-position:center;color:#fff;padding:22px}
+.b6 .chip{align-self:flex-start}
+.bt.ph:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,13,8,0) 50%,rgba(20,13,8,.75) 100%)}
+.bt > *{position:relative;z-index:2}
+.b1{grid-column:1/6;grid-row:1/5;background-image:url(img/bedroom_result.jpg);background-position:50% 50%}
+.b2{grid-column:6/10;grid-row:1/3;background-image:url(img/panel_idea.jpg)}
+.b3{grid-column:10/13;grid-row:1/4;background-image:url(img/reel_antalya_view.jpg);background-position:50% 30%}
+.b4{grid-column:6/10;grid-row:3/5;background-image:url(img/panel_result.jpg)}
+.b5{grid-column:10/13;grid-row:4/5;background:var(--led);color:#2b1d0b;display:flex;align-items:center;justify-content:space-between;font-weight:700;font-size:18px;line-height:1.2}
+.b6{grid-column:1/6;grid-row:5/7;background:var(--cocoa);display:flex;flex-direction:column;justify-content:space-between}
+.b7{grid-column:6/13;grid-row:5/7;background:var(--walnut);display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:end;grid-template-columns:1fr 1fr 1fr}
+.chip{display:inline-block;background:rgba(255,255,255,.22);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.4);border-radius:99px;padding:6px 15px;font-size:13.5px;font-weight:600}
+.bt h4{font:700 22px/1.1 Onest;letter-spacing:-.02em;margin-top:8px}
+.bt .low{position:absolute;left:22px;bottom:20px;right:22px}
+.b6 h4{font-size:30px}.b6 p{font-size:15px;opacity:.9;max-width:360px}
+.b7 .col b{display:block;font:800 40px/1 Onest;letter-spacing:-.04em}
+.b7 .col span{font-size:14px;opacity:.8;display:block;margin-top:6px}
+/* about */
+.ab{background:var(--cream);display:grid;grid-template-columns:5fr 7fr;gap:60px;padding:30px;align-items:stretch}
+.ab .ph{border-radius:30px;min-height:620px;background:url(img/reel_altintas_cover.jpg) 50% 22%/cover;position:relative;overflow:hidden}
+.ab .ph .chip{position:absolute;left:18px;bottom:18px}
+.ab .tx{padding:50px 30px 40px 0;display:flex;flex-direction:column;justify-content:space-between;gap:30px}
+.ab .tx p{margin-top:24px;font-size:18px;color:#4c4139;max-width:560px}
+.ab .tx p+p{margin-top:12px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.facts div{background:#fff;border-radius:24px;padding:20px}
+.facts b{display:block;font:800 30px/1 Onest;letter-spacing:-.04em}
+.facts span{font-size:14px;color:#5b4f47;line-height:1.3;display:block;margin-top:6px}
+.couple{display:flex;gap:14px;align-items:center;margin-top:8px}
+.couple img{width:96px;height:96px;border-radius:24px;object-fit:cover}
+.couple span{font-size:14px;color:#5b4f47}
+/* contact */
+.ct{background:var(--walnut);color:#f3ebdf;display:grid;grid-template-columns:6fr 6fr;gap:60px}
+.ct p{margin-top:22px;color:#d4c7b5;max-width:420px}
+.ct .soc2{display:flex;gap:12px;margin-top:30px}
+.ct .soc2 a{display:flex;gap:10px;align-items:center;border-radius:99px;padding:12px 20px 12px 16px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);font-size:15px;font-weight:500}
+.fm{display:grid;gap:12px;align-content:start}
+.fm div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:99px;padding:17px 26px;color:#c9bba8;font-size:16px}
+.fm .t2{display:grid;grid-template-columns:1fr 1fr;gap:12px;background:none;border:0;padding:0;border-radius:0}
+.fm .t2 div{}
+.fm .pill{justify-self:start;margin-top:8px}
+footer{display:flex;justify-content:space-between;padding:26px 30px 6px;font-size:13px;color:#6b5d51}
+@media(max-width:900px){
+ .page{padding:10px}
+ .hero{min-height:900px}
+ .top{padding:14px}.logo{padding:10px 18px;font-size:14px}
+ .notch{display:none}
+ .top .pill{padding:8px 8px 8px 16px;font-size:13px}.pill i{width:28px;height:28px}
+ .soc{display:none}
+ .hl{left:20px;right:20px;top:120px}
+ h1{font-size:44px}
+ .stat{left:14px;right:14px;width:auto;bottom:268px;padding:16px 18px;display:grid;grid-template-columns:auto 1fr;gap:0 16px;align-items:center}
+ .stat .n{font-size:38px}.stat p{margin:0}.stat .av{display:none}
+ .obj{left:14px;right:14px;bottom:14px;width:auto;padding:18px}
+ .obj h3{font-size:20px}.obj ul{margin-top:14px;gap:6px 10px;font-size:13px}
+ .strip{grid-template-columns:1fr 1fr}.strip div{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,.14)}.strip a.cta{grid-column:1/3;padding:20px}
+ .sec{padding:54px 20px;border-radius:28px}
+ .how .row{flex-direction:column;align-items:flex-start;gap:18px;margin-bottom:30px}
+ .tiles{grid-template-columns:1fr}.tile{min-height:300px}
+ .svc .g{grid-template-columns:1fr;margin-top:30px}.card{padding:28px 22px}.card h3{font-size:30px}
+ .pj{padding:40px 0}
+ .bento{grid-template-columns:1fr 1fr;grid-auto-rows:auto}
+ .bt{min-height:200px}.b1,.b2,.b3,.b4,.b5,.b6,.b7{grid-column:auto;grid-row:auto}
+ .b1{grid-column:1/3;min-height:360px}.b6,.b7{grid-column:1/3}.b7{grid-template-columns:1fr 1fr;min-height:200px}.b5{min-height:100px}
+ .ab{grid-template-columns:1fr;gap:20px;padding:14px}.ab .ph{min-height:440px}.ab .tx{padding:16px 10px 20px}
+ .facts{grid-template-columns:1fr}
+ .ct{grid-template-columns:1fr;gap:30px}.ct .soc2{flex-wrap:wrap}.fm .t2{grid-template-columns:1fr}
+ footer{flex-direction:column;gap:4px;padding:20px 10px 4px}
+}
+</style></head><body>
+<div class="note">Макет-предложение. Фото временные, взяты из публичных постов клиента, нужны оригиналы. Название студии, контакты и цифры в полях «__» уточнить.</div>
+<div class="page">
+<section class="hero">
+  <div class="top">
+    <a class="logo" href="#">Фируза <span>/ интерьеры</span></a>
+    <nav class="notch"><a href="#how">Идея / результат</a><a href="#svc">Услуги</a><a href="#pj">Проекты</a><a href="#ab">Студия</a></nav>
+    <a class="pill" href="#ct">Заказать <i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></i></a>
+  </div>
+  <div class="soc"><a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2.2-1.1-1 .9c-.9-.4-1.9-1.4-2.3-2.3l.9-1-1.1-2.2z" fill="currentColor" stroke="none"/></svg></a><a href="#" aria-label="Telegram"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L3 11l6 2.2L11 20l3.2-4.3L19 19.5z"/><path d="M9 13.2L21 4"/></svg></a><a href="https://www.instagram.com/af.live_/" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg></a></div>
+  <div class="hl"><small>Аланья / Анталья</small>
+    <h1>Интерьеры, куда остаётся только <b>заехать</b></h1></div>
+  <div class="stat"><div class="n">4 года</div><p>живём и работаем в Турции. Дизайн-проект, ремонт, мебель, свет и декор под ключ</p>
+    <div class="av"><img src="img/couple_intro.jpg" alt=""><img src="img/avatar_320.jpg" alt=""><span>Фируза и муж,<br>сооснователи студии</span></div></div>
+  <div class="obj"><div class="t"><div><h3>Алтынташ, Анталья</h3><div class="loc">Квартира 2+1 / готов</div></div><a class="go" href="#pj"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></a></div>
+    <ul><li>Дизайн-проект</li><li>Ремонт</li><li>Мебель</li><li>Свет и декор</li></ul></div>
+</section>
+
+<section class="strip">
+  <div><small>Формат</small><b>Полный проект / экспресс</b></div>
+  <div><small>Локация</small><b>Аланья / Анталья</b></div>
+  <div><small>Объекты</small><b>Квартиры / виллы</b></div>
+  <div><small>Срок</small><b>Называем после замеров __</b></div>
+  <a class="cta" href="#ct">Оставить заявку <i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></i></a>
+</section>
+
+<section class="sec how" id="how">
+  <div class="row"><div><span class="kick">Как мы показываем объект</span><h2>Идея. Процесс. <em>Результат</em></h2></div>
+  <p>Каждый объект показываем тремя кадрами, а не только красивым финалом. Так видно, как задумали и как дошли до результата.</p></div>
+  <div class="tiles">
+    <div class="tile" style="background-image:url(img/panel_idea.jpg)"><span class="n">01</span><div class="c"><h3>Идея</h3><p>Как должна выглядеть комната: материалы, цвет, свет.</p></div></div>
+    <div class="tile" style="background-image:url(img/panel_process.jpg)"><span class="n">02</span><div class="c"><h3>Процесс</h3><p>Ремонт и поставки по проекту.</p></div></div>
+    <div class="tile" style="background-image:url(img/panel_result.jpg)"><span class="n">03</span><div class="c"><h3>Результат</h3><p>Мебель, декор и подсветка на месте.</p></div></div>
+  </div>
+  <p class="hint">Кадры объекта Алтынташ. Подписи уточнить у клиента.</p>
+</section>
+
+<section class="sec svc" id="svc">
+  <span class="kick">Услуги</span><h2>Два формата. <em>Один результат</em></h2>
+  <div class="g">
+    <div class="card full"><h3>Полный проект</h3><p>От идеи до квартиры, куда остаётся только заехать. Подходит, когда нужен продуманный интерьер и один ответственный.</p>
+      <div class="tags"><span>Дизайн-проект</span><span>Ремонт под ключ</span><span>Мебель</span><span>Освещение</span><span>Декор</span></div></div>
+    <div class="card exp"><h3>Экспресс</h3><p>Без полноценного дизайн-проекта: сразу подбор мебели, материалов и комплектации квартиры.</p>
+      <div class="tags"><span>Мебель</span><span>Материалы</span><span>Комплектация</span></div>
+      <div class="ex">Сейчас в работе: Авсаллар, New Level Premium, квартира 3+1.</div></div>
+  </div>
+</section>
+
+<section class="sec pj" id="pj">
+  <div class="head"><div><span class="kick">Проекты</span><h2>Что мы <em>уже сделали</em></h2></div>
+    <div class="pills"><span class="on">Все</span><span>Квартиры</span><span>Виллы</span><span>Под аренду</span><span>Экспресс</span></div></div>
+  <div class="bento">
+    <div class="bt ph b1"><span class="chip">Алтынташ, Анталья</span><div class="low"><h4>Спальня, квартира 2+1</h4></div></div>
+    <div class="bt ph b2"><span class="chip">Идея</span></div>
+    <div class="bt ph b3"><span class="chip">Анталья</span></div>
+    <div class="bt ph b4"><span class="chip">Результат</span></div>
+    <a class="bt b5" href="https://www.instagram.com/af.live_/">Все объекты в Instagram <span class="ic"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+    <div class="bt b6"><span class="chip">В работе</span><div><h4>Авсаллар, New Level Premium</h4><p>Квартира 3+1, экспресс-формат: подбор мебели, материалов и комплектации.</p></div></div>
+    <div class="bt b7"><div class="col"><b>[__]</b><span>реализованных проектов, цифру взять у клиента</span></div><div class="col"><b>4 года</b><span>работаем в Турции</span></div><div class="col"><b>2</b><span>города: Аланья и Анталья</span></div></div>
+  </div>
+</section>
+
+<section class="sec ab" id="ab">
+  <div class="ph"><span class="chip" style="color:#fff">Фируза на объекте Алтынташ</span></div>
+  <div class="tx"><div><span class="kick">О студии</span><h2>Живём здесь <em>и отвечаем за результат</em></h2>
+    <p>Мы с мужем 4 года живём в Турции и развиваем здесь свой бизнес. Работаем с квартирами и виллами для жизни, отдыха и сдачи в аренду.</p>
+    <p>Показываем реальные объекты, ремонты и всё, что остаётся за кадром красивых интерьеров.</p></div>
+    <div><div class="facts"><div><b>4 года</b><span>в Турции</span></div><div><b>2</b><span>города: Аланья и Анталья</span></div><div><b>[__]</b><span>проектов, уточнить</span></div></div>
+    <div class="couple"><img src="img/couple_intro.jpg" alt="Фируза с мужем"><span>Фируза и муж, сооснователи студии</span></div></div></div>
+</section>
+
+<section class="sec ct" id="ct">
+  <div><span class="kick">Контакты</span><h2>Расскажите <em style="color:var(--led)">об&nbsp;объекте</em></h2><p>Район, тип квартиры или виллы, какой формат ближе. Планировку и фото можно прислать позже.</p>
+    <div class="soc2"><a href="#"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2.2-1.1-1 .9c-.9-.4-1.9-1.4-2.3-2.3l.9-1-1.1-2.2z" fill="currentColor" stroke="none"/></svg></span>WhatsApp __</a><a href="#"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L3 11l6 2.2L11 20l3.2-4.3L19 19.5z"/><path d="M9 13.2L21 4"/></svg></span>Telegram __</a><a href="https://www.instagram.com/af.live_/"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg></span>@af.live_</a></div></div>
+  <div class="fm"><div class="t2"><div>Как к вам обращаться</div><div>WhatsApp / Telegram</div></div><div>Район, ЖК</div><div>Квартира / вилла</div><div>Полный проект / экспресс / пока не знаю</div><a class="pill" href="#">Оставить заявку <i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></i></a></div>
+</section>
+<footer><span>Фируза / интерьеры / Аланья / Анталья</span><span>© 2026</span></footer>
+</div></body></html>
